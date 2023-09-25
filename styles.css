@@ -1,0 +1,102 @@
+/* Reset de estilos y estilos generales */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los enlaces del menú de navegación */
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px;
+    background-color: #f9f9f9; /* Color de fondo para las secciones */
+}
+
+/* Estilos para la galería de productos */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    background-color: #fff; /* Color de fondo para cada producto */
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra para resaltar los productos */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
